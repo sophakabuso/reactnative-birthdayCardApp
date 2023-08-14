@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   card: {
     width: '80%',
     height: 200,
-    backgroundColor: 'lightblue',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)', // Bold black background
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
@@ -22,5 +22,6 @@ const styles = StyleSheet.create({
   greeting: {
     fontSize: 18,
     textAlign: 'center',
+    color: '#fff', // Silver text color
   },
 });

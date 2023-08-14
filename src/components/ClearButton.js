@@ -14,13 +14,16 @@ export default function ClearButton({ onPress }) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: 'blue',
+    backgroundColor: '#1f1f1f', 
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5,
+    borderColor: '#000',
+    borderWidth: 1,
   },
   buttonText: {
-    color: 'white',
+    color: 'silver', 
     fontSize: 16,
+    fontWeight: 'bold', 
   },
 });
