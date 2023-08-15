@@ -1,8 +1,10 @@
+// ClearButton.js
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 export default function ClearButton({ onPress }) {
   return (
+    // Button to clear the greeting message
     <TouchableOpacity
       style={styles.button}
       onPress={onPress}
