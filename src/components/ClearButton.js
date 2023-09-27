@@ -20,11 +20,11 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5,
-    borderColor: '#000',
+    borderColor: 'purple',
     borderWidth: 1,
   },
   buttonText: {
-    color: 'silver', 
+    color: 'gold', 
     fontSize: 16,
     fontWeight: 'bold', 
   },

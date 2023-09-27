@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
   greeting: {
     fontSize: 18,
     textAlign: 'center',
-    color: '#fff', 
+    color: 'gold', 
   },
 });
